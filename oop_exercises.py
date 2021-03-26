@@ -1,6 +1,27 @@
 # OOP exercises
 
 # Task 1: Fizz Buzz
+class FizzBuzz():
+    def __init__(self):
+        self.fizz = "Fizz"
+        self.buzz = "Buzz"
+        self.fizzbuzz = "FizzBuzz"
+
+    def fizz_buzz(self):
+        for i in range(1, 100, 1):
+            if i % 3 == 0 and i % 5 == 0:
+                print(self.fizzbuzz)
+            elif i % 5 == 0:
+                print(self.buzz)
+            elif i % 3 == 0:
+                print(self.fizz)
+            else:
+                print(i)
+
+
+fizz = FizzBuzz()
+fizz.fizz_buzz()
+
 
 # Task 2: Scrabble word calculator
 class Scrabble():
@@ -27,5 +48,7 @@ class Scrabble():
 word_one = Scrabble()
 print(word_one.scrabble_calc())
 
-# Task 3: Bread Factory
+# Task 3: Naan Factory
+
+
 
