@@ -108,7 +108,7 @@ You are going to do the same with bread! This is called Test Driven Development.
 - Tasks
 This exercise is going to bring together lots of concepts.
 
-### Task 4: Naan factory
+##### Naan factory
 To run the naan factory do the following:
 
 ```
@@ -116,8 +116,7 @@ import naan_factory
 run_factory()
 ```
 
-
-### TDD - test driven development
+- TDD - test driven development
 
 1. write the test
 2. run it, and read the error
@@ -132,11 +131,11 @@ this helps with:
 
 How it works is that we write unit tests.
 
-##### Unit Tests
+- Unit Tests
 
 Test single pieces of code. Like a function.
 
-**base of a test**
+- base of a test
 Usually has 3 phases.
 - setup phase (know variables)
 - calling of the function / piece of code with know variables
@@ -150,5 +149,50 @@ Usually has 3 phases.
 
 3.As a user, I can use the run_factory with water and flour and get naan.
 
+## Friday exercises
+
+### Task 1: Control Flow Age and Permission
+
+- Summary
+Simple program to use control flow!
+
+- Tasks
+    - rules of what the program is supposed to do are followed,see bellow
+    - Starter code
+```
+age = 19
+driver_licence = True
+
+# - You can vote and drive
+# - You can vote
+# - You can drive
+# - you can't legally drink but your mates/uncles might have your back (bigger 16)
+# - Your too young, go back to school!
+```
+- As a user I should be able to keep being prompted for input until I say 'exit'
+- Acceptance Criteria
+    * is a program that run continuously
+    * handles strings and integers
+    * has existed condition
+    * all business logic works
+
+### Task 2: Your Hero Story!
+- Summary
+You're going to write a story, cut it into sections, store the section in a python dictionary!
+- Tasks
+    - Define a dictionary
+    - Add your content as values for keys
+    - Follow the instruction in the pseudo code bellow:
+
+- Dictionary basics
+    1. Define a dictionary call story1, it should have the following keys:
+         'start', 'middle' and 'end'
+    2. Print the entire dictionary
+    3. Print the type of your dictionary
+    4. Print only the keys
+    5. Print only the values
+    6. Print the individual values using the keys (individually, lots of print commands)
+    7. Now let's add a new key:value pair.
+       'hero': yourSuperHero
 
 
