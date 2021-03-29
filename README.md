@@ -24,7 +24,7 @@ Create a program that calculates the year of birth.
 
     3. As a user, I want to have my order read back to me in formatted way, so I know what I ordered.
     
-### Task 3:Xmas Holiday List that never ends!
+### Task 3: Xmas Holiday List that never ends!
 
 - User stories:
     1. As a user, I want to be able to add items to the list, so I can read it later.
@@ -94,7 +94,55 @@ K                                  5
 J, X                               8
 Q, Z                               10
 ```
-### Task 3: TDD Bread Factory! :bread:
+
+## Friday exercises
+
+### Task 1: Control Flow Age and Permission
+
+- Summary
+Simple program to use control flow!
+
+- Tasks
+    - rules of what the program is supposed to do are followed,see bellow
+    - Starter code
+```
+age = 19
+driver_licence = True
+
+# - You can vote and drive
+# - You can vote
+# - You can drive
+# - you can't legally drink but your mates/uncles might have your back (bigger 16)
+# - Your too young, go back to school!
+```
+- As a user I should be able to keep being prompted for input until I say 'exit'
+- Acceptance Criteria
+    * is a program that run continuously
+    * handles strings and integers
+    * has existed condition
+    * all business logic works
+
+### Task 2: Your Hero Story!
+- Summary
+You're going to write a story, cut it into sections, store the section in a python dictionary!
+- Tasks
+    - Define a dictionary
+    - Add your content as values for keys
+    - Follow the instruction in the pseudo code bellow:
+
+- Dictionary basics
+    1. Define a dictionary call story1, it should have the following keys:
+         'start', 'middle' and 'end'
+    2. Print the entire dictionary
+    3. Print the type of your dictionary
+    4. Print only the keys
+    5. Print only the values
+    6. Print the individual values using the keys (individually, lots of print commands)
+    7. Now let's add a new key:value pair.
+       'hero': yourSuperHero
+       
+## TDD Exercises
+### Task 1: TDD Bread Factory! :bread:
 
 - Timings:
 60-90 Minutes
@@ -148,51 +196,3 @@ Usually has 3 phases.
 2.As a user, I can use the bake_dough with dough to get naan.
 
 3.As a user, I can use the run_factory with water and flour and get naan.
-
-## Friday exercises
-
-### Task 1: Control Flow Age and Permission
-
-- Summary
-Simple program to use control flow!
-
-- Tasks
-    - rules of what the program is supposed to do are followed,see bellow
-    - Starter code
-```
-age = 19
-driver_licence = True
-
-# - You can vote and drive
-# - You can vote
-# - You can drive
-# - you can't legally drink but your mates/uncles might have your back (bigger 16)
-# - Your too young, go back to school!
-```
-- As a user I should be able to keep being prompted for input until I say 'exit'
-- Acceptance Criteria
-    * is a program that run continuously
-    * handles strings and integers
-    * has existed condition
-    * all business logic works
-
-### Task 2: Your Hero Story!
-- Summary
-You're going to write a story, cut it into sections, store the section in a python dictionary!
-- Tasks
-    - Define a dictionary
-    - Add your content as values for keys
-    - Follow the instruction in the pseudo code bellow:
-
-- Dictionary basics
-    1. Define a dictionary call story1, it should have the following keys:
-         'start', 'middle' and 'end'
-    2. Print the entire dictionary
-    3. Print the type of your dictionary
-    4. Print only the keys
-    5. Print only the values
-    6. Print the individual values using the keys (individually, lots of print commands)
-    7. Now let's add a new key:value pair.
-       'hero': yourSuperHero
-
-
